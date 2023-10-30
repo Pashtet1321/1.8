@@ -1,0 +1,71 @@
+.header{
+    position: relative;
+    float: left;
+    height: 8%;
+    width: 100%;
+    background-color: #101010;
+    border-bottom: 4px solid #66e06c;
+}
+
+.logo-container{
+
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    color: aqua;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: #e1c75e;
+}
+
+.navigation a:hover{
+    background-color: #671010;
+    color: #101010;
+}
+
+body {
+    background-image: url("../img/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.start {
+    color: gainsboro;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hobby {color: #111111;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content {
+    color: #f50647;
+    font-size: 25px;
+    text-align: left;
+}
+
+.leftimg{
+    float:left;
+    margin: 7px 7px 7px 0;
+}
